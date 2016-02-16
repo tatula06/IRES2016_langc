@@ -5,7 +5,7 @@ Testare l’esercizio usando l’array [2,4,7,3,9]*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_9.h"
+//#include "esercizio_9.h"
 
 int es9(int a[])
 {

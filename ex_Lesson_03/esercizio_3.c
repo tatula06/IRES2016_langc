@@ -4,7 +4,7 @@ Testare l’esercizio usando n = 50*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_3.h"
+//#include "esercizio_3.h"
 
 int es3(int n)
 {
@@ -17,6 +17,5 @@ int es3(int n)
         somma = somma+j;
         j=j+2;
     }
-    printf("Somma dei primi %d numeri dispari = %d\n",n,somma);
     return somma;
 }

@@ -7,7 +7,7 @@ Testare l’esercizio usando a = 4, n = 9*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_10.h"
+//#include "esercizio_10.h"
 
 int es10(int a, int n)
 {
@@ -15,7 +15,7 @@ int es10(int a, int n)
     int i=0;
     for (i=0;i<n;i++){
         b[i]=i;
-        printf("%d ",a);
+        //printf("%d ",a);
     }
     return a;
 }

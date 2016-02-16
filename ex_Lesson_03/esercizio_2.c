@@ -5,7 +5,7 @@ Testare l’esercizio usando l’array: [2,4,6,-2,1].*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_2.h"
+//#include "esercizio_2.h"
 
 int es2(int a[])
 {
@@ -18,6 +18,5 @@ int es2(int a[])
        i=i+1;
        x=a[i];
    }
-   printf("Somma = %d\n",somma);
    return somma;
 }

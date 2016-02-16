@@ -9,7 +9,7 @@ Testare l’esercizio stampando a console l’array B usando l’array A = {2,4,7,3,2,
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_11.h"
+//#include "esercizio_11.h"
 
 int es11(int A[])
 {

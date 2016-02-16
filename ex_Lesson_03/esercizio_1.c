@@ -4,7 +4,7 @@ console*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_1.h"
+//#include "esercizio_1.h"
 
 int es1(int n)
 {
@@ -16,9 +16,8 @@ int es1(int n)
    int j=lungA;
    for (i=0;i<lungA;i++){
         a[i]=i;
-        int r=printf("a[%d] = %d\n",i,j);
+        printf("a[%d] = %d\n",i,j);
         j=j-1;
-        return r;
    }
-   //return i,j;
+   return i,j;
 }

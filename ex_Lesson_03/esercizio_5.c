@@ -10,7 +10,7 @@ a = 2; b = 8*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_5.h"
+//#include "esercizio_5.h"
 
 int es5(int a, int b)
 {
@@ -30,6 +30,5 @@ int es5(int a, int b)
         somma=somma+j;
         j=j+1;
    }
-   printf("Somma compresa tra a=%d e b=%d = %d\n",a,b,somma);
    return somma;
 }

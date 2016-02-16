@@ -9,15 +9,14 @@ Testare l’esercizio stampando a console il risultato di pow(3, 4)*/
 #include <stdlib.h>
 
 //#include "esercizio_6.h"
-#include "esercizio_7.h"
+//#include "esercizio_7.h"
 
 int es7(int a, int b)
 {
     int i=0;
     int moltiplica=1;
     for (i=0;i<b;i++){
-        moltiplica=moltiplica*a;
+        moltiplica=es6(moltiplica,a);
     }
-    printf("%d ^ %d = %d\n",a,b,moltiplica);
     return moltiplica;
 }

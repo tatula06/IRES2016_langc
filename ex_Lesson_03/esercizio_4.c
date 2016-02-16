@@ -4,7 +4,7 @@ Testare l’esercizio usando l’array: [2,4,6,-2,1].*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_4.h"
+//#include "esercizio_4.h"
 
 float es4(int a[])
 {
@@ -20,6 +20,5 @@ float es4(int a[])
         somma=somma+x;
     }
     media=somma/lungA;
-    printf("Media = %.2f\n",media);
     return media;
 }

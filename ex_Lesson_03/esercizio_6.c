@@ -7,7 +7,7 @@ Testare l’esercizio stampando a console il risultato di mult(3, 5)*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "esercizio_6.h"
+//#include "esercizio_6.h"
 
 int es6(int a, int b)
 {
@@ -18,6 +18,5 @@ int es6(int a, int b)
     for (i=0;i<b;i++){
         somma=somma+a;
     }
-    printf("%d x %d = %d\n",a,b,somma);
     return somma;
 }
